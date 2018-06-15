@@ -6,7 +6,26 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="root"></div>
+    <div id="root">
+      <h1>Cifrado César</h1>
+
+    <!-- Mensaje a cifrar -->
+      <label>Mensaje a cifrar</label> <br>
+      <textarea type="text" id="stringMessage" name="name" placeholder="Ingresa tu mensaje a cifrar"></textarea><br>
+      <br>
+      <label> Keychain Offset (Selecciona el número de posiciones a mover) </label> <br>
+      <!-- Key Chain o llave para desencriptar -->
+      <input id="keychainOffset" type="number" name="" value="1" max="33" min="0" placeholder="Selecione un número"> <br>
+      <br>
+      <!-- Output de mensaje cifrado  -->
+      <!-- <label>Mensaje cifrado</label> <br> -->
+      <p id="encryptedMessage"> Mensaje cifrado </p>
+      <!-- <textarea id="exitMessage" name="name" rows="4" cols="50" ></textarea> <br> -->
+      <!-- Boton que dispara la función que cifra -->
+      <button id="buttonEncode" type="button" name="button" onclick="encode()"> Cifrar Mensaje </button>
+      <button id="buttonDecode" type="button" name=""  onclick="decode()"> Descifrar Mensaje </button>
+
+    </div>
     <script src="cipher.js"></script>
     <script src="index.js"></script>
   </body>
