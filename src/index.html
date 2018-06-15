@@ -11,7 +11,7 @@
 
     <!-- Mensaje a cifrar -->
       <label>Mensaje a cifrar</label> <br>
-      <textarea type="text" id="stringMessage" name="name" placeholder="Ingresa tu mensaje a cifrar"></textarea><br>
+      <textarea type="text" id="stringMessage" class="estilotextarea"name="name" placeholder="Ingresa tu mensaje a cifrar"></textarea><br>
       <br>
       <label> Keychain Offset (Selecciona el número de posiciones a mover) </label> <br>
       <!-- Key Chain o llave para desencriptar -->
@@ -19,11 +19,12 @@
       <br>
       <!-- Output de mensaje cifrado  -->
       <!-- <label>Mensaje cifrado</label> <br> -->
-      <p id="encryptedMessage"> Mensaje cifrado </p>
+      <div id="encryptedMessage"> Mensaje cifrado </div>
       <!-- <textarea id="exitMessage" name="name" rows="4" cols="50" ></textarea> <br> -->
       <!-- Boton que dispara la función que cifra -->
-      <button id="buttonEncode" type="button" name="button" onclick="encode()"> Cifrar Mensaje </button>
-      <button id="buttonDecode" type="button" name=""  onclick="decode()"> Descifrar Mensaje </button>
+      <button id="buttonEncode" type="button" name="encode"> Cifrar Mensaje </button>
+      <button id="buttonDecode" type="button" name="decode"> Descifrar Mensaje </button>
+      <button type="reset"> Limpiar casillas </button>
 
     </div>
     <script src="cipher.js"></script>

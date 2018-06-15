@@ -40,7 +40,7 @@ decode: (offset,string) => {
       messageEncode += String.fromCharCode(32);
     } else if (message >=97 && message <= 122) {
       //minusculas
-      messageEncode += String.fromCharCode(((message + 97 - offset) % 26) +97);
+      messageEncode += String.fromCharCode(((message - 97 - offset) % 26) +97);
     } else if (message >=65 && message <= 90){
     //Aplicando la formula (x+n)%+26
     messageEncode += String.fromCharCode(((message + 65 - offset) % 26) +65);

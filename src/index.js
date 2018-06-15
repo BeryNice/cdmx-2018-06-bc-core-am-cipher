@@ -8,3 +8,11 @@ let string;
 let offset = "";
 // declaramos una nueva variable en donde se almacena el mensaje codificado
 let messageEncode = "";
+
+
+// Imprimimos mensaje en HTML
+//  document.getElementById('encryptedMessage').innerHTML = messageEncode;
+
+
+
+document.getElementById('encryptedMessage').addEventListener('click',decode(offset,string));
