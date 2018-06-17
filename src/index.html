@@ -4,27 +4,38 @@
     <meta charset="utf-8">
     <title>Caesar Cipher</title>
     <link rel="stylesheet" href="style.css" />
+     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,700">
   </head>
-  <body>
+  <body class="bg">
+
+
     <div id="root">
-      <h1>Cifrado César</h1>
+      <h1>¡Mantén tus mensajes seguros!</h1>
+      <p>Sólo la persona que posea la llave para descrifrar el código podrá leerla</p>
 
     <!-- Mensaje a cifrar -->
-      <label>Mensaje a cifrar</label> <br>
-      <textarea type="text" id="stringMessage" class="estilotextarea"name="name" placeholder="Ingresa tu mensaje a cifrar"></textarea><br>
-      <br>
-      <label> Keychain Offset (Selecciona el número de posiciones a mover) </label> <br>
-      <!-- Key Chain o llave para desencriptar -->
-      <input id="keychainOffset" type="number" name="" value="1" max="33" min="0" placeholder="Selecione un número"> <br>
-      <br>
-      <!-- Output de mensaje cifrado  -->
-      <!-- <label>Mensaje cifrado</label> <br> -->
-      <div id="encryptedMessage"> Mensaje cifrado </div>
-      <!-- <textarea id="exitMessage" name="name" rows="4" cols="50" ></textarea> <br> -->
-      <!-- Boton que dispara la función que cifra -->
-      <button id="buttonEncode" type="button" name="encode"> Cifrar Mensaje </button>
-      <button id="buttonDecode" type="button" name="decode"> Descifrar Mensaje </button>
-      <button type="reset"> Limpiar casillas </button>
+      <form id="coder">
+        <label>Mensaje:</label> <br>
+        <span class="descripcion">Este será tu mensaje a cifrar o descrifrar</span>
+
+        <p><span class="fontawesome-comment icono"></span>
+        <textarea type="text" id="stringMessage" class="estilotextarea" name="name" placeholder="Ingresa tu mensaje a cifrar o descifrar"></textarea></p>
+
+        <label> ¡Selecciona un número!</label> <br>
+        <span class="descripcion">Este número será tu llave para cifrar o descrifrar tu mensaje, consérvalo</span>
+          <p> <span class="fontawesome-key"></span>  <input id="keychainOffset" type="number" name="" value="1" max="33" min="0" placeholder="Selecione un número"></p>
+        <!-- Key Chain o llave para desencriptar -->
+       <br>
+        <!-- Output de mensaje cifrado  -->
+        <label>Tu mensaje cifrado/descifrado es:</label> <br>
+        <div id="encryptedMessage"> Aquí se mostrará tu mensaje cifrado/descifrado </div>
+        <!-- <textarea id="exitMessage" name="name" rows="4" cols="50" ></textarea> <br> -->
+        <!-- Boton que dispara la función que cifra -->
+        <button id="buttonEncode" type="button" name="encode"> Cifrar Mensaje </button>
+        <button id="buttonDecode" type="button" name="decode"> Descifrar Mensaje </button>
+        <button id="buttonReset" type="reset" class="btnReset" > Limpiar casillas </button>
+      </form>
+
 
     </div>
     <script src="cipher.js"></script>
