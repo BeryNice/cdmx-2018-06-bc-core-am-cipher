@@ -7,7 +7,7 @@ Usuaria desea hacer fiesta sorpresa para su novio y no quiere que se de cuenta, 
 
 ## Cómo ejecutar esta aplicaión
 
-Esta aplicación web se ejecuta a través de la siguiente URL [cifrado césar] (https://berynice.github.io/cdmx-2018-06-bc-core-am-cipher/src/)
+Esta aplicación web se ejecuta a través de la siguiente URL https://berynice.github.io/cdmx-2018-06-bc-core-am-cipher/src/
 
 Su función principal es cifrar y descifrar mensajes a través de una llave/clave numérica manteniéndolo en secreto fuera del alcance de espías.
 
@@ -37,7 +37,7 @@ Debe ser un producto digital fácil de usar y de entender, cumpliendo la funció
 
 ## UI (Elementos de diseño)
 
-![Wireframe](https://berenicelemus.com/laboratoria/wireframe.jpg)
+![Wireframe](https://berenicelemus.com/laboratoria/wireframe-2.jpg)
 
 
 La interfaz debe permitir al usuario:
