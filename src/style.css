@@ -7,7 +7,7 @@
 
 [class*="fontawesome-"]:before {
   font-family: 'FontAwesome', sans-serif;
-  font-size: 30px;
+  font-size: 25px;
   vertical-align: top;
 }
 
@@ -50,7 +50,7 @@ p {text-align: center;}
     margin: auto;
     width:450px;
     border-radius: 10px;
-    padding: 30px;
+    padding: 40px;
     vertical-align: middle;
     background: #fff;
     box-shadow: 0 5px 10px 0 rgba(39,21,102,0.1);
@@ -62,7 +62,7 @@ p {text-align: center;}
   }
 
   .estilotextarea {
-    width:400px;
+    width:90%;
     height:100px;
     border: 1px solid #c5f6fa;
     background: #e3fafc;
@@ -156,7 +156,23 @@ p {text-align: center;}
     border: #22b8cf solid 1px;
   }
 
+@media (max-width: 1024px) {
 
+  #root{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 90%;
+    height: 80%;
+    margin: auto;}
+
+
+  #coder{
+    margin: auto;
+    width:80%;
+}
 
 
   /*
