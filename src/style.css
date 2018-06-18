@@ -5,7 +5,7 @@
 @import url(http://weloveiconfonts.com/api/?family=fontawesome);
 /* ---------- FONTAWESOME ---------- */
 
-[class*="fontawesome-"]:before {
+[class*="fas"]:before {
   font-family: 'FontAwesome', sans-serif;
   font-size: 25px;
   vertical-align: top;
@@ -176,36 +176,16 @@ p {text-align: center;}
 }
 
 
-  /*
-  #root form input[type="reset"] {
-  border-radius: 3px;
-  -moz-border-radius: 3px;
-  -webkit-border-radius: 3px;
-  background-color: #ea4c88;
-  color: #eee;
-  font-weight: bold;
-  margin-bottom: 2em;
-  text-transform: uppercase;
-  width: 280px;
-}
 
-#root form input[type="reset" i]:hover {
-background-color: #d44179;
-}
-*/
+@media (max-width: 480px) {
 
-/*
-input{
-text-rendering: auto;
-color: initial;
-letter-spacing: normal;
-word-spacing: normal;
-text-transform: none;
-text-indent: 0px;
-text-shadow: none;
-display: inline-block;
-text-align: start;
-margin: 0em;
-font: 400 20px system-ui;
+  #root{
+    width: 90%;
+    height: 95%;
+  }
+
+
+  #coder{
+    margin: auto;
+    width:80%;
 }
-*/
