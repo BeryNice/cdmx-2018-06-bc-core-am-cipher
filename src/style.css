@@ -67,6 +67,7 @@ p {text-align: center;}
     border: 1px solid #c5f6fa;
     background: #e3fafc;
     padding: 5px;
+    font-size: 12px;
   }
 
   #encryptedMessage{
